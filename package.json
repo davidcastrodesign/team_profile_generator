@@ -1,0 +1,29 @@
+{
+  "name": "team_profile_generator",
+  "version": "1.0.0",
+  "description": "generates team member profiles",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "jest --verbose test/*"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcastrodesign/team_profile_generator.git"
+  },
+  "keywords": [
+    "team_profile_generator"
+  ],
+  "author": "David Castro Castaneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidcastrodesign/team_profile_generator/issues"
+  },
+  "homepage": "https://github.com/davidcastrodesign/team_profile_generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.1"
+  }
+}
